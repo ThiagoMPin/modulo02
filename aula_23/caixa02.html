@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+            margin: 0px;
+        }
+
+        h1{
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: underline;
+        }
+
+        header {
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+        }
+      
+        nav{
+            background-color: rgba(164, 189, 128, 0.521);
+            padding: 3px;
+            box-shadow: 5px 5px 3px rgba(24, 23, 23, 0.411);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: rgb(11, 140, 179) ;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        article {
+            background-color: rgba(164, 189, 128, 0.521);
+            border-radius: 10px 20px ;
+        }
+
+        article > aside{
+            font-weight: bolder;
+            text-decoration: underline;
+        }
+        
+        footer {
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Notícia sobre o último jogo do Flamengo.</h2>
+            
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi commodi error nobis. Molestias quo
+                    ratione ipsam quae incidunt error, deserunt saepe cumque obcaecati aliquam, harum ab sit nulla
+                    recusandae aliquid?</p>
+                <aside>
+                    <p>Artigo escrito por ThiagoMP</p>
+                </aside>
+            </article>
+        </section>
+
+        <section id="noticias">
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por mim.</p>
+    </footer>
+
+</body>
+
+</html>

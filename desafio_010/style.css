@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'drd' ;
+    src: url(font.otf) ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* CABEÇALHO */
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 2px 2px 1px black ;
+}
+
+div#cima{
+    background-image: linear-gradient(to bottom, #3ddc84e8, #02190c);
+    color: #fff;
+    font-weight: bolder;
+}
+
+div#cima > p, h1 {
+    padding-top: 40px; 
+    text-align: center;
+}
+
+nav{
+    padding: 10px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #c5ebd6;
+    padding: 10px;
+}
+
+nav > a:hover{
+    transition: 0.5s;
+    background-color: #2FA866;
+    border-radius: 8px;
+    color: black;
+
+}
+
+
+
+
+
+/* MAIN */
+
+div#full{
+    background-color: white;
+    border: 90px solid #c5ebd6;
+    border-top: 10px;
+    margin: auto;
+    text-align: justify;
+}
+
+
+.pacote{
+    padding: 20px;
+    font-weight: 600;
+}
+
+
+a.acender{
+    color: #097639;
+    text-decoration: none;
+
+}
+
+a.acender:hover{
+    text-decoration: underline;
+}
+
+p{
+    text-indent: 35px;
+}
+
+
+h2{
+    color: #063D1E;
+    font-family: drd, sans-serif;
+    font-weight: normal;
+    
+}
+
+h2#first{
+    font-size: 30px;
+}
+
+h2.sombrear{
+    background-image: linear-gradient(45deg, #2fa86670, transparent);
+}
+
+p#img{
+    text-align: center;
+}
+/* CONSEGUI CENTRALIZAR A IMAGEM DESSE MODO, PONDO ELA DENTRO DE UMA TAG DE PARAGRAFO, PQ AI EU POSSO USAR O TEXT-ALIGN: CENTER , MAS ESTA ERRADO, TENHO QUE VER COMO Q CENTRALIZA, OU COMO É O JEITO CERTO DE FAZER*/
+
+
+
+
+
+/* VIDEO */
+
+section#green{
+    background-color: #063D1E;
+    padding: 25px;
+}
+
+
+
+/* LISTA */
+
+div#verde{
+    padding: 30px 20px;
+    padding-bottom: 10px;
+}
+
+h2#last{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #097638b6;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+aside{
+    border-radius: 10px;
+    background-color: #2fa8655d;
+    
+}
+
+aside > p.last , h2#last{
+    padding: 20px 10px;
+}
+
+ul{
+    padding-left: 30px;
+}
+
+p#end{
+    padding: 1px 10px 30px 10px;
+}
+
+/* RODAPÉ */ 
+
+footer{
+    background-color: #063D1E;
+    padding: 5px;
+}
+
+footer > p{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}

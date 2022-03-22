@@ -1,0 +1,5 @@
+Primeiro erro que notei que fiz no meu projeto em comparação com a correção do professor foi a posição no NAV em meu código.
+
+O Professor pôs o "nav", que serve para ditar onde esta uma barra de navegação do site, fora da tag semantica "header". Já eu, coloquei dentro.
+
+Segundo erro que notei, foi o fato dele por dois "h1", um no header e outro no inicio do main, e tambem quando eu coloquei o título da parte do main, eu deixei ele do lado de fora. Além de nao ter posto tudo que esta no main envelopado com o article.
